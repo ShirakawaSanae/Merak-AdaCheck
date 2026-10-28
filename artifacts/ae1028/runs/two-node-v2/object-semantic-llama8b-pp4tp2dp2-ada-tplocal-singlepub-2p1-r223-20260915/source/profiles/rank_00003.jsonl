@@ -1,0 +1,11 @@
+{"duration_ns":1006684813710,"end_ns":7896487375700322,"fields":{"arm":"adacheck_fixed","epoch":0},"kind":"interval","name":"checkpoint_object_semantic_base","schema_version":1,"start_ns":7895480690886612}
+{"duration_ns":2628453362,"end_ns":7896490404753428,"fields":{"allocated_bytes":5155028992,"arm":"adacheck_fixed","confirmation_mode":"post_allreduce_dp_invariant","max_inflight":2},"kind":"interval","name":"checkpoint_object_semantic_snapshot_preallocation","schema_version":1,"start_ns":7896487776300066}
+{"duration_ns":2139179397,"end_ns":7896492758799192,"fields":{"epoch":1},"kind":"interval","name":"training_compute","schema_version":1,"start_ns":7896490619619795}
+{"duration_ns":905576326,"end_ns":7896493664664283,"fields":{"epoch":2},"kind":"interval","name":"training_compute","schema_version":1,"start_ns":7896492759087957}
+{"duration_ns":2133915275,"end_ns":7896494737627978,"fields":{"arm":"adacheck_fixed","epoch":1},"kind":"interval","name":"checkpoint_object_semantic_checksum_confirmation","schema_version":1,"start_ns":7896492603712703}
+{"duration_ns":11285781,"end_ns":7896494749041102,"fields":{"arm":"adacheck_fixed","epoch":1},"kind":"interval","name":"checkpoint_object_semantic_externalize","schema_version":1,"start_ns":7896494737755321}
+{"duration_ns":62127664145,"end_ns":7896556876979781,"fields":{"arm":"adacheck_fixed","epoch":1},"kind":"interval","name":"checkpoint_object_semantic_distributed_commit","schema_version":1,"start_ns":7896494749315636}
+{"duration_ns":1964520733,"end_ns":7896558846389463,"fields":{"arm":"adacheck_fixed","epoch":2},"kind":"interval","name":"checkpoint_object_semantic_checksum_confirmation","schema_version":1,"start_ns":7896556881868730}
+{"duration_ns":7712853,"end_ns":7896558854341117,"fields":{"arm":"adacheck_fixed","epoch":2},"kind":"interval","name":"checkpoint_object_semantic_externalize","schema_version":1,"start_ns":7896558846628264}
+{"duration_ns":57528747049,"end_ns":7896616383210685,"fields":{"arm":"adacheck_fixed","epoch":2},"kind":"interval","name":"checkpoint_object_semantic_distributed_commit","schema_version":1,"start_ns":7896558854463636}
+{"duration_ns":122721689685,"end_ns":7896616386635525,"fields":{"arm":"adacheck_fixed","final_epoch":2},"kind":"interval","name":"checkpoint_object_semantic_final_drain","schema_version":1,"start_ns":7896493664945840}

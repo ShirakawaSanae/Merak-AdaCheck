@@ -1,0 +1,11 @@
+{"duration_ns":1008232406065,"end_ns":7894835529804016,"fields":{"arm":"m1","epoch":0},"kind":"interval","name":"checkpoint_object_semantic_base","schema_version":1,"start_ns":7893827297397951}
+{"duration_ns":1091285097,"end_ns":7894836834785290,"fields":{"allocated_bytes":1963081728,"arm":"m1","confirmation_mode":"post_allreduce_dp_invariant","max_inflight":2},"kind":"interval","name":"checkpoint_object_semantic_snapshot_preallocation","schema_version":1,"start_ns":7894835743500193}
+{"duration_ns":1908741563,"end_ns":7894839172918803,"fields":{"epoch":1},"kind":"interval","name":"training_compute","schema_version":1,"start_ns":7894837264177240}
+{"duration_ns":756443879,"end_ns":7894839929803179,"fields":{"epoch":2},"kind":"interval","name":"training_compute","schema_version":1,"start_ns":7894839173359300}
+{"duration_ns":2077232452,"end_ns":7894840910414165,"fields":{"arm":"m1","epoch":1},"kind":"interval","name":"checkpoint_object_semantic_checksum_confirmation","schema_version":1,"start_ns":7894838833181713}
+{"duration_ns":7186174,"end_ns":7894840917833037,"fields":{"arm":"m1","epoch":1},"kind":"interval","name":"checkpoint_object_semantic_externalize","schema_version":1,"start_ns":7894840910646863}
+{"duration_ns":33832974214,"end_ns":7894874750909846,"fields":{"arm":"m1","epoch":1},"kind":"interval","name":"checkpoint_object_semantic_distributed_commit","schema_version":1,"start_ns":7894840917935632}
+{"duration_ns":1890871034,"end_ns":7894876647479594,"fields":{"arm":"m1","epoch":2},"kind":"interval","name":"checkpoint_object_semantic_checksum_confirmation","schema_version":1,"start_ns":7894874756608560}
+{"duration_ns":4580412,"end_ns":7894876652330271,"fields":{"arm":"m1","epoch":2},"kind":"interval","name":"checkpoint_object_semantic_externalize","schema_version":1,"start_ns":7894876647749859}
+{"duration_ns":32504966958,"end_ns":7894909157415894,"fields":{"arm":"m1","epoch":2},"kind":"interval","name":"checkpoint_object_semantic_distributed_commit","schema_version":1,"start_ns":7894876652448936}
+{"duration_ns":69229168681,"end_ns":7894909159265774,"fields":{"arm":"m1","final_epoch":2},"kind":"interval","name":"checkpoint_object_semantic_final_drain","schema_version":1,"start_ns":7894839930097093}

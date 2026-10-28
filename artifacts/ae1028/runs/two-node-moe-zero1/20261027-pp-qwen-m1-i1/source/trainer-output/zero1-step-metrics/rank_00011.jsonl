@@ -1,0 +1,3 @@
+{"step": 1, "step_wall_seconds": 2.396250896155834}
+{"checkpoint_capture_seconds": 0.6506778094917536, "checkpoint_exposed_stall_seconds": 1.6642744429409504, "checkpoint_publish_seconds": 1.0012773238122463, "committed_checkpoint_epoch": 2, "step": 2, "step_wall_seconds": 1.9598509967327118}
+{"step": 3, "step_wall_seconds": 0.33126154728233814}

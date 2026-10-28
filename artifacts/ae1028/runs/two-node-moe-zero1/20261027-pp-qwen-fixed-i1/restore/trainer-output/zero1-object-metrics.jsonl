@@ -1,0 +1,1 @@
+{"epoch": 2, "event": "fresh_restore", "restore_seconds": 0.8778858035802841, "scope": "restore controller plus service reads, state apply and runtime restore; excludes process startup"}

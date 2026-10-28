@@ -1,0 +1,2 @@
+state=stopped_by_agent
+reason=use_metadata_planning_and_host_serial_restore_with_same_sealed_snapshot

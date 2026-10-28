@@ -1,0 +1,69 @@
+## General
+# git patch
+*.patch
+# filesystem
+.idea
+.DS_Store
+.apex
+
+# compiled python files 
+*.pyc
+
+# compiled python folders
+**/__pycache__
+**/output
+**/imagenet_outputs
+**/tmp_trainer
+*.egg-info/
+**/*_cache/
+*.so
+**/build
+
+# vscode configurations
+**/.vscode
+
+# model files
+#*.json
+events.out.tfevents*
+model.ckpt*
+*.pbtxt
+*.pt
+eval
+weight-decay
+events.out.*
+tensorboard
+
+# .tar packages
+*.tar
+
+# log or output files
+*.log
+*.out
+*.txt
+*.eps
+*.json
+*.onnx
+
+# shell script
+*.sh
+!/setup_experiment.sh
+!/setup_conda_env.sh
+!/tools/launch_ckpt_grouping.sh
+!/tools/run_two_node_rail_matrix.sh
+!/tools/run_two_node_matched_capture.sh
+!/tools/run_two_node_matched_matrix.sh
+!/tools/run_two_node_object_semantic.sh
+!/tools/run_two_node_peer_delta_pilot.sh
+!/tools/bootstrap_ckpt_grouping_env.sh
+!/tools/run_four_node_matched_capture.sh
+!/tools/run_four_node_peer_delta.sh
+!/tools/run_four_node_preflight.sh
+!/tools/run_two_node_merak_1c1s.sh
+!/tools/run_in_tmux.sh
+
+# Vendored nnScaler source profiles are inputs, not run artifacts.
+!/third_party/nnscaler/resources/profile/**/*.json
+/third_party/nnscaler/**/.rendered.*
+
+# Local checkpoint-grouping experiment artifacts
+/runs/
